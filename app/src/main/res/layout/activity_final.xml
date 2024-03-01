@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI_Controller.FinalActivity">
+
+
+    <FrameLayout
+        android:id="@+id/main_FRAME_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/yellow_400"
+        android:padding="20dp" />
+
+    <FrameLayout
+        android:id="@+id/main_FRAME_map"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/yellow_400"
+        android:padding="20dp" />
+
+    <FrameLayout
+        android:id="@+id/main_FRAME_btn"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_weight="0.1"
+        android:background="@color/yellow_400"
+     >
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/main_BTN_homepage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="@dimen/margin"
+            android:backgroundTint="@color/blue_500"
+            app:fabCustomSize="50dp"
+            app:maxImageSize="30dp"
+            app:shapeAppearance="@style/ShapeAppearanceOverlay.MaterialAlertDialog.Material3"
+            app:srcCompat="@drawable/homepage" />
+    </FrameLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

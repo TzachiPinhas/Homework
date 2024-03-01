@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow_400"
+    tools:context=".UI_Controller.ScoreActivity">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/score_LBL_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:text="Score\n000"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+
+
+    <RelativeLayout
+        android:id="@+id/main_BTN"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/main_BTN_homepage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:backgroundTint="@color/blue_500"
+            app:fabCustomSize="50dp"
+            app:maxImageSize="30dp"
+            app:shapeAppearance="@style/ShapeAppearanceOverlay.MaterialAlertDialog.Material3"
+            app:srcCompat="@drawable/homepage" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

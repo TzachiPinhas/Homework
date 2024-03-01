@@ -3,7 +3,13 @@
     <dimen name="hearts_layout_width">140dp</dimen>
     <dimen name="heart_dimens">40dp</dimen>
     <dimen name="icon_dimens">10dp</dimen>
-    <dimen name="margin">50dp</dimen>
+    <dimen name="margin">20dp</dimen>
+    <dimen name="marginBTN">50dp</dimen>
+    <dimen name="textSize">20dp</dimen>
+    <dimen name="score_line">50dp</dimen>
+    <dimen name="line_corner_radius">20dp</dimen>
+    <dimen name="line_elevation">10dp</dimen>
+    <dimen name="size_table">20dp</dimen>
 
 
 </resources>
